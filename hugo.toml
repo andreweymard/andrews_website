@@ -1,4 +1,56 @@
-baseURL = 'https://blog.aeymard.com/'
-languageCode = 'en-us'
-title = 'Andrews Blog'
-theme = 'hugo-theme-stack'
+#This part is the base config
+baseURL = "/"
+languageCode = "en"
+title = "Andrew's Blog"
+theme = "hugo-theme-stack"
+
+[Params.Sidebar]
+  subtitle = "Fate lies the light cone."
+  compact = false
+
+[menu] #This is where the config for the menu items start
+  [[menu.main]] #Main menu item number 1 to go to the home page
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+    [menu.main.params]
+      icon = "home"
+      newTab = false
+
+  [[menu.main]] #Main menu item number 2 for an about me page
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 10
+    [menu.main.params]
+      icon = "about"
+
+  [[menu.social]] #Sub menu item number 1 links to Github
+    identifier = "github"
+    name = "Github"
+    url = "https://github.com/andreweymard"  
+    weight = 1
+    [menu.social.params]
+      icon = "brand-github"
+      newTab = true
+
+  [[menu.social]] #Sub menu item number 2 mails to my email address
+    identifier = "mail"
+    name = "Email"
+    url = "mailto:andrew@aeymard.com"
+    weight = 2
+    [menu.social.params]
+      icon = "mail"
+
+  [[menu.social]] #Sub menu item number 3 links to LinkedIn
+    identifier = "LinkedIn"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/aeymard/"
+    [menu.social.params]
+      icon = "linkedin"
+
+[Params.Sidebar.avatar] #This is the config for the main picture in my website
+  enabled = true
+  src = "img/avatar.jpg"
+  local = true
