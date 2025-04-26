@@ -1,12 +1,28 @@
 #This part is the base config
 baseURL = "/"
-languageCode = "en"
+languageCode = "en-us"
 title = "Andrew's Blog"
 theme = "hugo-theme-stack"
 
-[Params.Sidebar]
-  subtitle = "Fate lies the light cone."
+[Params.Sidebar] #Config for top left data
   compact = false
+  subtitle1 = "\"Great things are not done by impulse, but by a series of small things brought together.\""
+  subtitle2 = "-Vincent Van Gogh"
+
+[Params.Sidebar.avatar] #This is the config for the main picture in my website
+  enabled = true
+  local = true
+  src = "img/avatar.jpg"
+
+[Params.Footer]
+  since = "2024"
+  customText = "Thank you to the open source community"
+
+[Params.Article]
+  readingTime = false
+
+[Params.colorScheme]
+  default = "light"
 
 [menu] #This is where the config for the menu items start
   [[menu.main]] #Main menu item number 1 to go to the home page
@@ -47,10 +63,15 @@ theme = "hugo-theme-stack"
     identifier = "LinkedIn"
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/aeymard/"
+    weight = 3
     [menu.social.params]
       icon = "linkedin"
+      newTab = true
 
-[Params.Sidebar.avatar] #This is the config for the main picture in my website
-  enabled = true
-  src = "img/avatar.jpg"
-  local = true
+  [[menu.social]] #Sub menu item number 2 mails to my email address
+    identifier = "RSS"
+    name = "RSS"
+    url = ""
+    weight = 4
+    [menu.social.params]
+      icon = "rss"
