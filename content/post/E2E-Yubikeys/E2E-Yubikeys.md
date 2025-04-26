@@ -1,7 +1,8 @@
 +++
-date = '2025-04-23T00:17:52+05:30'
+date = '2025-04-23'
 draft = false
-title = 'Hello World'
+title = 'A guide on end-to-end PGP encrypted emails using Yubikeys'
+image = "post/E2E-Yubikeys/mailbox.jpg"
 +++
 
 ## Introduction
