@@ -1,9 +1,9 @@
-+++
-date = '2025-04-23'
-draft = false
-title = 'A guide on end-to-end PGP encrypted emails using Yubikeys'
-image = "post/E2E-Yubikeys/mailbox.jpg"
-+++
+---
+title: Guide on end-to-end PGP encrypted emails using Yubikeys
+description: A step-by-step guide on sending a PGP encrypted email using PKI and a little extra security using Yubikeys
+date: 2025-04-23
+image: mailbox.jpg
+---
 
 ## Introduction
 
