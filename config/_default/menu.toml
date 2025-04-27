@@ -1,0 +1,50 @@
+[[main]] #Main menu item number 1 to go to the home page
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+[main.params]
+    icon = "home"
+    newTab = false
+
+[[main]] #Main menu item number 2 for an about me page
+identifier = "about"
+name = "About Me"
+url = "/about/"
+weight = 10
+[main.params]
+    icon = "about"
+
+[[social]] #Sub menu item number 1 links to Github
+identifier = "github"
+name = "Github"
+url = "https://github.com/andreweymard"  
+weight = 1
+[social.params]
+    icon = "brand-github"
+    newTab = true
+    
+[[social]] #Sub menu item number 2 mails to my email address
+identifier = "mail"
+name = "Email"
+url = "mailto:andrew@aeymard.com"
+weight = 2
+[social.params]
+    icon = "mail"
+
+[[social]] #Sub menu item number 3 links to LinkedIn
+identifier = "LinkedIn"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/aeymard/"
+weight = 3
+[social.params]
+    icon = "linkedin"
+    newTab = true
+
+[[social]] #Sub menu item number 2 mails to my email address
+identifier = "RSS"
+name = "RSS"
+url = ""
+weight = 4
+[social.params]
+    icon = "rss"

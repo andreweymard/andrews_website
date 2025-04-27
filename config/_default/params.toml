@@ -1,0 +1,39 @@
+mainSections = ["post"]
+rssFullContent = true   # Output page's full content in RSS.
+
+[Sidebar] #Config for top left data
+compact = false
+emoji = "🚀"
+subtitle1 = "\"Great things are not done by impulse, but by a series of small things brought together.\""
+subtitle2 = "-Vincent Van Gogh"
+
+[Sidebar.avatar] #This is the config for the main picture in my website
+enabled = true
+local = true
+src = "img/avatar.jpg"
+
+[Footer]
+since = "2024"
+customText = "Thank you to the open source community"
+
+[Article]
+headingAnchor = false
+math = false
+readingTime = false
+
+[article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
+
+[colorScheme]
+toggle = true
+default = "light"
+
+[dateFormat]
+published = "Jan 02, 2006"
+lastUpdated = "Jan 02, 2006 15:04 MST"
+
+[defaultImage.opengraph]
+enabled = false
+local = false
+src = ""

@@ -1,0 +1,4 @@
+baseURL = "https://blog.aeymard.com"
+languageCode = "en-us"
+title = "Andrew's Blog"
+theme = "hugo-theme-stack"
