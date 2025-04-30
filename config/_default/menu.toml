@@ -35,7 +35,7 @@ weight = 2
 [[social]] #Sub menu item number 3 links to LinkedIn
 identifier = "LinkedIn"
 name = "LinkedIn"
-url = "https://www.linkedin.com/in/aeymard/"
+url = "https://linkedin.aeymard.com"
 weight = 3
 [social.params]
     icon = "linkedin"
