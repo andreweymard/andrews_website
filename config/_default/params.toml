@@ -14,7 +14,10 @@ src = "img/avatar.jpg"
 
 [Footer]
 since = "2024"
-customText = "Thank you to the open source community"
+customText = """Unless otherwise stated, all original content on this blog is licensed under the 
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). 
+You are free to share and adapt this content for non-commercial purposes, provided you give appropriate 
+credit and distribute any modified content under the same license."""
 
 [Article]
 headingAnchor = false
@@ -32,8 +35,3 @@ default = "light"
 [dateFormat]
 published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
-
-[defaultImage.opengraph]
-enabled = false
-local = false
-src = ""
