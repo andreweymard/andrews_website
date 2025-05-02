@@ -3,6 +3,11 @@ title: Guide on end-to-end PGP encrypted emails using Yubikeys
 description: A step-by-step guide on sending a PGP encrypted email using PKI and a little extra security using Yubikeys
 date: 2025-04-23
 image: mailbox.jpg
+tags: 
+    - End-to-End
+    - Yubikey
+    - PKI
+    - Guides
 ---
 
 ## What's wrong with regular email?
@@ -12,7 +17,7 @@ If you're here you don't want to send regular old email. You've got a keen inter
 
 So whether it be Governments issuing subpoenas or your IT dept, you have a right to privacy and the tools to do so. How we achieve this is by encrypting our email before handing it to the email provider, let's say Gmail for example. This email provider says that they will encrypt it and send it to the receiving party's provider/server and send it to the user from there. This is a perfectly **secure enough** way to send an email. But what if Gmail before sending it decides to have a quick little sneak peek before sending it off? Scrape just enough metadata and keywords to better target you with ads? The implications go on, what stops Gmail giving undemocratic governments access to an activist's emails? Potentially putting someone's life in danger? These reasons may not apply to you, but if like me you just want to learn about cool tech that some of the smartest minds of our generation has conceived, read on.
 
-##
+## 
 
 This is **bold** text, and this is *emphasised* text.
 
